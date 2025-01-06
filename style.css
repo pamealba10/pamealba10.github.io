@@ -2,7 +2,7 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #c2a8f1;
+  background-color: #b19cee;
 }
 
 .navbar-collapse {
@@ -21,22 +21,23 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  align-content: center;
 }
 
 h1 {
-  font-size: 2.1rem;
+  font-size: 2.5rem;
   /* font-family: 'fantasy', cursive; */
-  font-family: 'Press Start 2P', cursive;
-  color: rgb(220, 189, 250);
+  font-family: 'DM Serif Text', cursive, bold;
+  color: rgb(77, 16, 138);
 }
 
 .Typewriter__wrapper{
   color: #030303;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'DM Serif Text', cursive;
   /* font-family: 'fantasy', cursive; */
 }
 .seccion-oscura {
-  color: rgb(93, 29, 175);
+  color: rgb(89, 24, 175);
   background-color: #8dbde4;
 }
 
@@ -70,6 +71,10 @@ h1 {
   margin: 20px;
  background-color: #b291f0;
  border-color: black;
+}
+
+.badge {
+  background-color: #52248a;
 }
 
 .texto-negro {
@@ -130,7 +135,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   transition: all 0.2s ease-in;
 }
 
@@ -140,9 +145,9 @@ h1 {
 }
 
 .experiencia i {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #7fe1ee;
-  background-color: #0a0a23;
+  background-color: #0c0c2a;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -163,14 +168,21 @@ h1 {
   margin: 5px;
 }
 
+
+
 /* Proyectos */
+
+.imgmake {
+ width: 10px;
+ height: 10px;
+}
 
 .proyectos-recientes {
   padding: 40px;
 }
 
 .proyectos-recientes img {
-  height: 100%;
+  height: 300px;
   width: 100%;
   padding: 10px;
   border-radius: 10px;
